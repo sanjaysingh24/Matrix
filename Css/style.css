@@ -1,0 +1,117 @@
+.amazing_text h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #353f4f;
+}
+.amazing_text p{
+    font-size: 20px;
+    color:#757575;
+}
+
+.wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  }
+  h2{
+    font-family:sans-serif;
+    color:#fff;
+  }
+  .carousel{
+    width:90%;
+    margin:0px auto;
+  }
+  .slick-slide{
+    margin:10px;
+  }
+  .slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+  }
+  .wrapper .slick-dots li button:before {
+    font-size:20px;
+    color:white;
+  }
+ 
+  .testimonialcard{
+    position:relative;
+
+  }
+  .text_content{
+    position: relative;
+  }
+  .text_content p{
+  font-size: 18px;
+color: grey;
+line-height: 30px;
+margin-top: 34px;
+
+}
+  .text_content::before{
+    content: "\201C";
+    font-size: 169px;
+    font-family: flaticon!important;
+    position: absolute;
+    top: -69px;
+    left: 0px;
+    color: grey;
+    opacity: .5;
+
+  }
+  .testimonialcard{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px grey;
+    padding: 25px 25px;
+  }
+  .img_box{
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+  }
+  .img_box img{
+    border-radius: 100%;
+  }
+  .User_image{
+    display: flex;
+
+  }
+  .User_image p{
+    font-size: 16px;
+    color: grey;
+  }
+  .User_image h3{
+    font-size: 20px;
+  }
+  .carousel{
+    width: 100%;
+  }
+  .star_icons .stars{
+    color: #ffb30c;
+  }
+  .star_icons{
+    border: 1px solid #f5f5f5;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.08);
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 15px;
+    padding: 5px 18px;
+    border-radius: 30px;
+  }
+  .tool_card{
+    padding: 50px 30px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 12px;
+  }
+  .viewallbtn button{
+ padding: 15px 45px;
+ border: 2px solid black;
+ border-radius: 10px;
+ font-size: 20px;
+  }  
+
+  .question_left p{
+color: #757575;
+font-size: 18px;
+font-weight: 600;
+  }
