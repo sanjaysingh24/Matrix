@@ -160,8 +160,8 @@ font-weight: 600;
 .arrow_btn button{
   border: none !important;
   position: absolute;
+  top: 10px;
   right: 0px;
-  top: 5px;
   background-color: transparent !important;
 color: #f74780;
 
@@ -234,7 +234,13 @@ color: #757575;
   margin-top: 25px;
   font-weight: 700;
  }
- .first p ,ul li{
+ .first p{
+  color: #757575;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 25px;
+ }
+ .first ul li{
   color: #757575;
   font-weight: 400;
   font-size: 20px;
@@ -264,4 +270,184 @@ color: #f74780;
 }
 .matrex_Section{
   margin-top: 80px;
+
+}
+.matrex_text h1{
+  color: white;
+  font-size: 58px;
+  font-family:Plus Jakarta Sans,sans-serif; 
+  font-weight: 700;
+}
+.matrex_text p{
+  color: white;
+  font-size: 24px;
+  margin-top: 30px;
+}
+.get_Startedbtn button{
+  margin-top: 30px;
+  background-color: #f74780;
+  border: 2px solid #f74780;
+  padding: 10px 38px;
+  border-radius: 8px;
+  color: white;
+font-size: 20px;
+transition: 0.5s all;
+font-weight: 600;
+}
+.get_Startedbtn button:hover{
+  background-color: transparent;
+  border: 2px solid white;
+}
+.startwithmatrex{
+  padding: 80px 0px;
+}
+
+.free_text p{
+  font-size: 18px;
+}
+.footer_content h1{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Rubik,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+.footer_content ul{
+  list-style: none;
+  padding: 0px;
+}
+.footer_content ul li{
+  color: #6c757d;
+  font-weight: 400;
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: Rubik,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+.footer_content ul li a{
+  color: #6c757d;
+}
+.footer_section{
+  margin-top: 110px;
+}
+
+.footer_social_link ul li a{
+
+  color: #6c757d;
+  font-size: 20px;
+}
+.copyright_text{
+  color: #6c757d;
+  font-size: 20px;
+  font-weight: 500;
+}
+.custom_email input{
+background: #f4f4f4;
+padding: 12px;
+font-size: 18px;
+}
+.custom_email input:focus{
+  outline: none;
+  box-shadow: none;
+  border-color:  grey !important;
+  ;
+}
+@media screen and (max-width:551px) {
+  .amazing_text h1 {
+    margin-top: 22px;
+    font-size: 33px;
+    font-weight: 700;
+    color: #353f4f;
+}
+.text_content::before {
+  content: "\201C";
+  font-size: 101px;
+  font-family: flaticon!important;
+  position: absolute;
+  top: -47px;
+  left: -10px;
+  color: grey;
+  opacity: .3;
+
+}
+.text_content p {
+  margin-top: 15px;
+}
+.testimonialcard{
+  padding: 20px 40px 30px;
+}
+.automate_bg{
+  margin-top: 70px;
+  padding-top:56px ;
+}
+.automate_bg .Automate_text {
+  font-size: 32px;
+}
+.first_que{
+  order: 0;
+
+}
+.second_que{
+  order: 1;
+
+}
+.third_que{
+  order: 2;
+
+}
+.fourth_que{
+  order: 3;
+
+}
+.fifth_que{
+  order: 4;
+
+}
+.sixth_que{
+  order: 5
+  ;
+}
+.seven_que{
+  order: 6;
+}
+.question_text {
+  font-size: 37px;
+  font-family: Plus Jakarta Sans,sans-serif;
+  font-weight: 700;
+}
+.matrex_text h1 {
+  color: white;
+  font-size: 33px;
+  font-family: Plus Jakarta Sans,sans-serif;
+  font-weight: 700;
+}
+}
+@media  screen and (min-width:552px) and (max-width:992px) {
+  .first_que{
+    order: 0;
+  
+  }
+  .second_que{
+    order: 1;
+  
+  }
+  .third_que{
+    order: 2;
+  
+  }
+  .fourth_que{
+    order: 3;
+  
+  }
+  .fifth_que{
+    order: 4;
+  
+  }
+  .sixth_que{
+    order: 5
+    ;
+  }
+  .seven_que{
+    order: 6;
+  }
+  
 }
