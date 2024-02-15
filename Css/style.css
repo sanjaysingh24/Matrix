@@ -1,10 +1,11 @@
+
 .amazing_text h1{
     font-size: 65px;
     font-weight: 700;
     color: #353f4f;
 }
 .amazing_text p{
-    font-size: 20px;
+    font-size: 25px;
     color:#757575;
 }
 
@@ -52,16 +53,18 @@ margin-top: 34px;
     font-size: 169px;
     font-family: flaticon!important;
     position: absolute;
-    top: -69px;
-    left: 0px;
+    top: -91px;
+    left: -10px;
     color: grey;
-    opacity: .5;
+    opacity: .3;
 
   }
   .testimonialcard{
+    border-radius: 8px;
     background-color: #fff;
-    box-shadow: 0px 0px 10px grey;
-    padding: 25px 25px;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.08);
+  
+    padding: 40px 40px 30px;
   }
   .img_box{
     width: 54px;
@@ -73,14 +76,21 @@ margin-top: 34px;
   }
   .User_image{
     display: flex;
-
+    align-items: center;
   }
   .User_image p{
     font-size: 16px;
     color: grey;
+    margin-bottom: 0px;
+    text-align: justify;
   }
   .User_image h3{
     font-size: 20px;
+    margin-bottom: 0px;
+    text-align: justify;
+  }
+  .author_name{
+    margin-left: 15px;
   }
   .carousel{
     width: 100%;
@@ -98,20 +108,160 @@ margin-top: 34px;
     padding: 5px 18px;
     border-radius: 30px;
   }
-  .tool_card{
+  .tool_card{margin-top: 35px;
+
     padding: 50px 30px;
     box-shadow: 0px 0px 10px grey;
     border-radius: 12px;
+    background-color: white;
+  }
+  .tool_card img{
+    width: 65% !important;
+  }
+  .icon_title{
+    margin-top: 20px;
+    color:#353f4f;
+    font-size: 19.6px ;
+    font-weight: 700;
+    font-family: Plus Jakarta Sans,sans-serif;
   }
   .viewallbtn button{
- padding: 15px 45px;
+ padding: 10px 40px;
  border: 2px solid black;
  border-radius: 10px;
  font-size: 20px;
+ color:#353f4f;
+ transition: 0.5s all;
+ margin-top: 25px;
   }  
 
+  .viewallbtn button:hover{
+    background-color: #e73971!important;
+    border-color: #e73971!important;
+    color: #fff!important;
+  }
   .question_left p{
 color: #757575;
 font-size: 18px;
 font-weight: 600;
   }
+  .startwithmatrex{
+    background: url('../assets/img/background.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed!important;
+    border-radius:18px ;
+
+  }
+.custom_email{
+  position: relative;
+}
+.arrow_btn button{
+  border: none !important;
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  background-color: transparent !important;
+color: #f74780;
+
+
+ }
+
+ .arrow_btn button i{
+  
+  font-size: 20px;
+ }
+ .Here_what_Section{
+  background-image: linear-gradient(180deg,rgba(244,244,249,.8) 50%,rgba(244,244,249,.05));
+
+ }
+ .text_content p{
+text-align: justify;
+ }
+
+ .client_love_section .ourClient_text{
+font-size: 24px;
+color: #757575;
+ }
+ .client_love_section{
+  margin-top: 40px;
+  
+ }
+ .brand_image{
+  width: 65%;
+ }
+ .brand_image_g{
+  width: 56%;
+ }
+ .automate_bg{
+  margin-top: 100px;
+  padding-top: 80px;
+  background:url('../assets/img/automate_bg.jpg');
+  padding-bottom: 80px;
+  background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+ }
+ .automate_bg .Automate_text{
+  font-size: 58px;
+  font-family: Plus Jakarta Sans,sans-serif;
+  font-weight: 700;
+ }
+ .automate_bg .Automate_subtext{
+  font-size: 25px;
+  color: grey;
+  margin-top: 20px;
+ }
+ .question_text{
+  font-size: 56px;
+  font-family: Plus Jakarta Sans,sans-serif;
+  font-weight: 700;
+ }
+ .question_subset{
+  font-family: Plus Jakarta Sans,sans-serif;
+  font-size: 24px;
+color: #757575;
+ }
+ .questions_section{
+  margin-top: 80px;
+ }
+ .first h1{
+  font-family: Plus Jakarta Sans,sans-serif;
+  color: #353f4f;
+  font-size: 25px;
+  margin-top: 25px;
+  font-weight: 700;
+ }
+ .first p ,ul li{
+  color: #757575;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 25px;
+ }
+.have_questions{
+  display: inline-block;
+  padding: 22px 46px;
+  background-color: #f4f4f9;
+border-radius: 100px;
+text-align: center;
+margin-top: 40px;
+
+}
+.have_questions h3{
+  color: #6c757d;
+  font-weight: 400;
+  font-size: 21px;
+}
+.have_questions a{
+  
+    font-weight: 500;
+color: #f74780;
+}
+.have_questions a:hover{
+  color: black;
+}
+.matrex_Section{
+  margin-top: 80px;
+}
